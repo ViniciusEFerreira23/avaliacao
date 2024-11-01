@@ -1,0 +1,143 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.interface {
+    background-color: #E6c744;
+    color: #ffffff;
+    text-align: center;
+    padding: 60px;
+}
+
+.poppins-regular {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.poppins-medium {
+    font-family: "Poppins-medium", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.poppins-black {
+    font-family: "Poppins", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+}
+
+.titulo{
+    font-family: Poppins;
+    width:80%;
+    text-align: center;
+    justify-self: center;
+}
+
+h2 {
+    color: #ffffff;
+    font-family: Poppins;
+    font-size: 50px;
+}
+h3{
+    color: #c2c8DA;
+    font-family: poppins;
+}
+
+p{
+    color: #c2c8DA;
+}
+
+li{
+    font-family: poppins;
+    color: #c2c8DA;
+}
+
+.pform {
+    color: #ffffff;
+    font-family: Poppins;
+    width: 100%;
+    font-weight: 10px;
+}
+
+.pfooter {
+    color: #c2c8DA;
+    font-family: Poppins;
+    width: 90%;
+}
+
+form {
+    margin: 0 auto;
+    margin-top: 20px;
+    display: block;
+    padding: 4px;
+}
+
+form>input {
+    border: none
+}
+
+form>button {
+    background: rgb(0, 0, 0);
+    border: none;
+    color: #fff;
+    padding: 4px 10px;
+    border-radius: 3px;
+}
+
+form input{
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+
+form .btn-enviar {
+    margin-top: 1px;
+    text-align: center;
+}
+
+form .btn-enviar input[type=submit] {
+    background-color: #000000;
+    color: #ffffff;
+    cursor: pointer;
+    padding: 500px;
+}
+
+footer {
+    padding: 100px 4%;
+    box-shadow: 0 0 40px 10px #ffffff15;
+    background-color: #000000;
+}
+
+footer .container{
+    display: flex;
+    color: #ffffff;
+}
+footer .container ul{
+    width: 25%;
+    
+}
+footer .container ul li{
+    display: flex;
+}
+footer .container h3{
+    margin-bottom: 16px ;
+    font-weight: 600;
+}
+footer .container .redes-sociais img{
+    margin-right: 10px;
+
+}
+footer .container ul > p{
+    margin-bottom: 40px;
+}
+
+footer .container li{
+    margin: 10px 0;
+}
+
+footer .container a{
+    color: #ffffff;
+    text-decoration: none;
+}
